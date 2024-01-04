@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatima Muskan</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/2a37a2aa5b.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <!------------ Header ------------>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1>Portfolio</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>DotNet Developer</p>
+        <h2>Hi, I'm <span>Fatima</span><br> Muskan From Pakistan</h2>
+      </div>
+    </div>
+  </div>
+ <!------------ About Me ------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a professional dedicated and experienced .NET Developer with 
+            5 years of hands-on expertise in developing robust and scalable web 
+            applications. Proficient in ASP.NET MVC, C#, SQL server and front-end
+            technologies. Strong problem solving skills and a passion for 
+            delivering high quality software solutions.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('projects')">Project</p>
+          </div>
+          <!--Skills--> 
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Languages</span><br>C#, Javascript, HTML, CSS</li>
+              <li><span>Frameworks</span><br>ASP.NET MVC, Entity Framework</li>
+              <li><span>Databases</span><br>SQL Server, MY SQL</li>
+              <li><span>Version Control</span><br>Git, SVN</li>
+              <li><span>Front-end Technologies</span><br>JQuery, Bootstrap</li>
+            </ul>
+          </div>
+          <!--Experience--> 
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Senior .NET Developer</span><br>XYZ Software Solutions</li>
+              <li><span>.NET Developer</span><br>ABC Tech</li>
+              <li><span>.NET Intern</span><br>Computer Scientist</li>
+            </ul>
+          </div>
+          <!--Education--> 
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2018 - 2022</span><br>BSCS from UET Lahore</li>
+              <li><span>2015 - 2017</span><br>FSC from Punjab Group of Colleges</li>
+              <li><span>2012 - 2014</span><br>Matric from Dar E Arqam High School</li>
+            </ul>
+          </div>
+          <!--Projects--> 
+        <div class="tab-contents" id="projects">
+          <ul>
+            <li><span>E-commerce Web Application</span><br>ASP.NET and SQL Server/li>
+            <li><span>Inventory Management System</span><br>Integrated Barcode API</li>
+            <li><span>Employee Leave Management System</span><br>Web App</li>
+          </ul>
+        </div>
+
+        </div>
+
+        
+          
+      </div>
+    </div>
+  </div>
+ <!------------ Services ------------>
+  <div id="services">
+    <div class="container">
+       <h3 class="sub-title">My Services</h3>
+       <div class="services-list">
+        <div>
+          <i class="fa-sharp fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>A web designer is responsible for creating the design and layout of a website or web pages.
+            Web design determines the look and feel of a website.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fab fa-app-store"></i>
+          <h2>Software Design</h2>
+          <p>Software design is the process by which an agent creates a specification of a software artifact
+             intended to accomplish goals.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>Desktop Design</h2>
+          <p>A desktop designer responsible for designing the user interface (UI) and user experience (UX) of desktop applications. This role involves creating visually appealing and functional interfaces for software that run on desktop computers.</p>
+          <a href="#">Learn more</a>
+        </div>
+       </div>
+    </div>
+  </div>
+
+  <!------------ Portfolio ------------>  
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/Asp.net.jpg">
+          <div class="layer">
+            <h3>Website Designs</h3>
+            <p>Web design refers to the design of websites that are displayed on the internet. 
+              It usually refers to the user experience aspects of website</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/desktop.jpg">
+          <div class="layer">
+            <h3>Desktop App Designs</h3>
+            <p>Desktop applications are programs designed to run on computers and use system resources to perform their functions.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.jpg">
+          <div class="layer">
+            <h3>Simple Project Designs</h3>
+            <p>The app connects you to the talented people around the world.
+              See it online from websites.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+ <!------------ Contact ------------>  
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h4 class="sub-title">Contact Me</h4>
+          <p><i class="fa-solid fa-paper-plane"></i> fatima.muskan1801@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 0300-5468901</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/Fatima_Muskan.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p><p>&copy;Copyright 2023.Fatima Muskan.All Rights Reserved.</p></p>
+    </div>
+  </div>
+
+ <!------------JavaScript Code ------------>     
+  <script src="script.js"></script> 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbznW7X9p4k-t8MAFISrD5dkrCJLst0BcpiYSMOnlBSUoTXALBywSZ4o5P-mSmNt7IoCxA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function()
+          {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
